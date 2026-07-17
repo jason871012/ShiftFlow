@@ -1,0 +1,47 @@
+[
+    {
+        "fixture_id": "CPU_INTEL_LGA1700",
+        "fixture_name": "Intel LGA1700 測試 CPU",
+        "total_quantity": 8
+    },
+    {
+        "fixture_id": "CPU_INTEL_LGA1851",
+        "fixture_name": "Intel LGA1851 測試 CPU",
+        "total_quantity": 4
+    },
+    {
+        "fixture_id": "CPU_INTEL_LGA1200",
+        "fixture_name": "Intel LGA1200 測試 CPU",
+        "total_quantity": 4
+    },
+    {
+        "fixture_id": "CPU_INTEL_LGA4677",
+        "fixture_name": "Intel LGA4677 Xeon 測試 CPU",
+        "total_quantity": 2
+    },
+    {
+        "fixture_id": "CPU_AMD_AM5",
+        "fixture_name": "AMD AM5 測試 CPU",
+        "total_quantity": 6
+    },
+    {
+        "fixture_id": "CPU_AMD_AM4",
+        "fixture_name": "AMD AM4 測試 CPU",
+        "total_quantity": 4
+    },
+    {
+        "fixture_id": "RAM_DDR5_16G",
+        "fixture_name": "DDR5 16GB 測試記憶體支架",
+        "total_quantity": 32
+    },
+    {
+        "fixture_id": "RAM_DDR4_8G",
+        "fixture_name": "DDR4 8GB 測試記憶體支架",
+        "total_quantity": 40
+    },
+    {
+        "fixture_id": "TEST_CARD_PCIE5",
+        "fixture_name": "PCIe Gen5 訊號測試治具板",
+        "total_quantity": 6
+    }
+]

@@ -1,0 +1,174 @@
+[
+    {
+        "model_id": "MODEL_001",
+        "model_name": "Z790-Gaming Intel 電競主機板",
+        "test_duration_minutes": 45,
+        "required_fixtures": [
+            {
+                "fixture_id": "CPU_INTEL_LGA1700",
+                "quantity_per_board": 1
+            },
+            {
+                "fixture_id": "RAM_DDR5_16G",
+                "quantity_per_board": 2
+            },
+            {
+                "fixture_id": "TEST_CARD_PCIE5",
+                "quantity_per_board": 1
+            }
+        ],
+        "note": "需要：LGA1700 CPU *1, DDR5 *2, PCIe5測試卡 *1"
+    },
+    {
+        "model_id": "MODEL_002",
+        "model_name": "B650-Wifi AMD 主流主機板",
+        "test_duration_minutes": 30,
+        "required_fixtures": [
+            {
+                "fixture_id": "CPU_AMD_AM5",
+                "quantity_per_board": 1
+            },
+            {
+                "fixture_id": "RAM_DDR5_16G",
+                "quantity_per_board": 2
+            }
+        ],
+        "note": "需要：AM5 CPU *1, DDR5 *2"
+    },
+    {
+        "model_id": "MODEL_003",
+        "model_name": "H610-M Intel 入門主機板",
+        "test_duration_minutes": 20,
+        "required_fixtures": [
+            {
+                "fixture_id": "CPU_INTEL_LGA1700",
+                "quantity_per_board": 1
+            },
+            {
+                "fixture_id": "RAM_DDR4_8G",
+                "quantity_per_board": 1
+            }
+        ],
+        "note": "需要：LGA1700 CPU *1, DDR4 *1"
+    },
+    {
+        "model_id": "MODEL_004",
+        "model_name": "Z890-Creator 新世代設計師板",
+        "test_duration_minutes": 50,
+        "required_fixtures": [
+            {
+                "fixture_id": "CPU_INTEL_LGA1851",
+                "quantity_per_board": 1
+            },
+            {
+                "fixture_id": "RAM_DDR5_16G",
+                "quantity_per_board": 4
+            },
+            {
+                "fixture_id": "TEST_CARD_PCIE5",
+                "quantity_per_board": 1
+            }
+        ],
+        "note": "全新 LGA1851 腳位，需要：DDR5 *4 滿插插槽測試"
+    },
+    {
+        "model_id": "MODEL_005",
+        "model_name": "A620-ITX AMD 小主機板",
+        "test_duration_minutes": 25,
+        "required_fixtures": [
+            {
+                "fixture_id": "CPU_AMD_AM5",
+                "quantity_per_board": 1
+            },
+            {
+                "fixture_id": "RAM_DDR5_16G",
+                "quantity_per_board": 2
+            }
+        ],
+        "note": "ITX 小板，需要：AM5 CPU *1, DDR5 *2"
+    },
+    {
+        "model_id": "MODEL_006",
+        "model_name": "B760-M Intel 主流商務板",
+        "test_duration_minutes": 30,
+        "required_fixtures": [
+            {
+                "fixture_id": "CPU_INTEL_LGA1700",
+                "quantity_per_board": 1
+            },
+            {
+                "fixture_id": "RAM_DDR5_16G",
+                "quantity_per_board": 2
+            }
+        ],
+        "note": "需要：LGA1700 CPU *1, DDR5 *2"
+    },
+    {
+        "model_id": "MODEL_007",
+        "model_name": "X670E-Hero AMD 高階發燒板",
+        "test_duration_minutes": 60,
+        "required_fixtures": [
+            {
+                "fixture_id": "CPU_AMD_AM5",
+                "quantity_per_board": 1
+            },
+            {
+                "fixture_id": "RAM_DDR5_16G",
+                "quantity_per_board": 4
+            },
+            {
+                "fixture_id": "TEST_CARD_PCIE5",
+                "quantity_per_board": 1
+            }
+        ],
+        "note": "需要：AM5 CPU *1, DDR5 *4, PCIe5測試卡 *1"
+    },
+    {
+        "model_id": "MODEL_008",
+        "model_name": "B550-Legacy 舊世代熱銷板",
+        "test_duration_minutes": 20,
+        "required_fixtures": [
+            {
+                "fixture_id": "CPU_AMD_AM4",
+                "quantity_per_board": 1
+            },
+            {
+                "fixture_id": "RAM_DDR4_8G",
+                "quantity_per_board": 2
+            }
+        ],
+        "note": "AM4 舊腳位，需要：AM4 CPU *1, DDR4 *2"
+    },
+    {
+        "model_id": "MODEL_009",
+        "model_name": "W790-Workstation 工作站大板",
+        "test_duration_minutes": 90,
+        "required_fixtures": [
+            {
+                "fixture_id": "CPU_INTEL_LGA4677",
+                "quantity_per_board": 1
+            },
+            {
+                "fixture_id": "RAM_DDR5_16G",
+                "quantity_per_board": 8
+            }
+        ],
+        "note": "工作站等級，測試極耗時，需要：LGA4677 Xeon CPU *1, DDR5 *8"
+    },
+    {
+        "model_id": "MODEL_010",
+        "model_name": "H510-M Intel 舊款入門板",
+        "test_duration_minutes": 15,
+        "required_fixtures": [
+            {
+                "fixture_id": "CPU_INTEL_LGA1200",
+                "quantity_per_board": 1
+            },
+            {
+                "fixture_id": "RAM_DDR4_8G",
+                "quantity_per_board": 2
+            }
+        ],
+        "note": "需要：LGA1200 CPU *1, DDR4 *2"
+    }
+]

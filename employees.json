@@ -1,0 +1,101 @@
+[
+    {
+        "employee_id": "EMP_001",
+        "name": "陳志明",
+        "skills": [
+            "MODEL_001",
+            "MODEL_002",
+            "MODEL_007"
+        ],
+        "is_active": true
+    },
+    {
+        "employee_id": "EMP_002",
+        "name": "林春嬌",
+        "skills": [
+            "MODEL_002",
+            "MODEL_003",
+            "MODEL_008"
+        ],
+        "is_active": true
+    },
+    {
+        "employee_id": "EMP_003",
+        "name": "張家豪",
+        "skills": [
+            "MODEL_003",
+            "MODEL_004",
+            "MODEL_008"
+        ],
+        "is_active": true
+    },
+    {
+        "employee_id": "EMP_004",
+        "name": "怡君",
+        "skills": [
+            "MODEL_001",
+            "MODEL_002",
+            "MODEL_005",
+            "MODEL_009",
+            "MODEL_010"
+        ],
+        "is_active": true
+    },
+    {
+        "employee_id": "EMP_005",
+        "name": "王建國",
+        "skills": [
+            "MODEL_001",
+            "MODEL_004",
+            "MODEL_006"
+        ],
+        "is_active": true
+    },
+    {
+        "employee_id": "EMP_006",
+        "name": "李淑芬",
+        "skills": [
+            "MODEL_002",
+            "MODEL_007",
+            "MODEL_010"
+        ],
+        "is_active": true
+    },
+    {
+        "employee_id": "EMP_007",
+        "name": "黃俊傑",
+        "skills": [
+            "MODEL_005"
+        ],
+        "is_active": true
+    },
+    {
+        "employee_id": "EMP_008",
+        "name": "蔡美玲",
+        "skills": [
+            "MODEL_006",
+            "MODEL_008",
+            "MODEL_009"
+        ],
+        "is_active": true
+    },
+    {
+        "employee_id": "EMP_009",
+        "name": "吳志強",
+        "skills": [
+            "MODEL_007",
+            "MODEL_009",
+            "MODEL_010"
+        ],
+        "is_active": true
+    },
+    {
+        "employee_id": "EMP_010",
+        "name": "劉雅婷",
+        "skills": [
+            "MODEL_003",
+            "MODEL_005"
+        ],
+        "is_active": true
+    }
+]

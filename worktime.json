@@ -1,0 +1,139 @@
+{
+    "shifts": [
+        {
+            "shift_id": "MORNING_SHIFT",
+            "shift_name": "早班",
+            "work_start": "08:00",
+            "work_end": "17:00",
+            "break_slots": [
+                {
+                    "name": "上午小休",
+                    "start": "10:00",
+                    "end": "10:10",
+                    "is_paid": true
+                },
+                {
+                    "name": "早班午餐",
+                    "start": "12:00",
+                    "end": "13:00",
+                    "is_paid": false
+                },
+                {
+                    "name": "下午小休",
+                    "start": "15:00",
+                    "end": "15:10",
+                    "is_paid": true
+                }
+            ],
+            "overtime_rules": {
+                "max_ot_minutes": 240,
+                "ot_earliest_start": "17:00",
+                "ot_latest_end": "22:00",
+                "ot_breaks": [
+                    {
+                        "name": "加班前晚餐休息 (強制)",
+                        "start": "17:00",
+                        "end": "18:00",
+                        "is_paid": false
+                    },
+                    {
+                        "name": "加班中途小休",
+                        "start": "20:00",
+                        "end": "20:10",
+                        "is_paid": true
+                    }
+                ]
+            }
+        },
+        {
+            "shift_id": "MIDDLE_SHIFT",
+            "shift_name": "中班",
+            "work_start": "16:00",
+            "work_end": "01:00",
+            "break_slots": [
+                {
+                    "name": "夜間小休-1",
+                    "start": "18:00",
+                    "end": "18:10",
+                    "is_paid": true
+                },
+                {
+                    "name": "中班晚餐",
+                    "start": "20:00",
+                    "end": "21:00",
+                    "is_paid": false
+                },
+                {
+                    "name": "夜間小休-2",
+                    "start": "22:00",
+                    "end": "22:10",
+                    "is_paid": true
+                }
+            ],
+            "overtime_rules": {
+                "max_ot_minutes": 240,
+                "ot_earliest_start": "01:00",
+                "ot_latest_end": "06:00",
+                "ot_breaks": [
+                    {
+                        "name": "加班前點心休息",
+                        "start": "01:00",
+                        "end": "02:00",
+                        "is_paid": false
+                    },
+                    {
+                        "name": "加班中途小休",
+                        "start": "04:00",
+                        "end": "04:10",
+                        "is_paid": true
+                    }
+                ]
+            }
+        },
+        {
+            "shift_id": "NIGHT_SHIFT",
+            "shift_name": "晚班 (跨日)",
+            "work_start": "00:00",
+            "work_end": "09:00",
+            "break_slots": [
+                {
+                    "name": "半夜小休",
+                    "start": "02:00",
+                    "end": "02:10",
+                    "is_paid": true
+                },
+                {
+                    "name": "晚班宵夜",
+                    "start": "04:00",
+                    "end": "05:00",
+                    "is_paid": false
+                },
+                {
+                    "name": "清晨小休",
+                    "start": "07:00",
+                    "end": "07:10",
+                    "is_paid": true
+                }
+            ],
+            "overtime_rules": {
+                "max_ot_minutes": 240,
+                "ot_earliest_start": "09:00",
+                "ot_latest_end": "14:00",
+                "ot_breaks": [
+                    {
+                        "name": "加班前早餐休息",
+                        "start": "09:00",
+                        "end": "10:00",
+                        "is_paid": false
+                    },
+                    {
+                        "name": "加班中途小休",
+                        "start": "12:00",
+                        "end": "12:10",
+                        "is_paid": true
+                    }
+                ]
+            }
+        }
+    ]
+}

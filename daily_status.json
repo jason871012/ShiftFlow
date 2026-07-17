@@ -1,0 +1,74 @@
+{
+    "date": "2026-07-20",
+    "shift_id": "MORNING_SHIFT",
+    "employee_statuses": [
+        {
+            "employee_id": "EMP_001",
+            "name": "陳志明",
+            "assigned_shift_id": "MORNING_SHIFT",
+            "attendance_status": "PARTIAL_LEAVE",
+            "leave_intervals": [
+                {
+                    "name": "早上請假看醫生",
+                    "start": "08:00",
+                    "end": "10:00"
+                }
+            ],
+            "willing_to_overtime": true,
+            "ot_max_limit_minutes": 240,
+            "note": "陳志明：早上請假 2 小時（08:00-10:00），10:00 後正常上工。下班後願意全力配合加班（最滿 4 小時）。"
+        },
+        {
+            "employee_id": "EMP_002",
+            "name": "林春嬌",
+            "assigned_shift_id": "MORNING_SHIFT",
+            "attendance_status": "WORK",
+            "leave_intervals": [],
+            "willing_to_overtime": true,
+            "ot_max_limit_minutes": 120,
+            "note": "林春嬌：正常出勤（08:00-17:00）。下班後願意加班，但因為要接小孩，最多只能加 2 小時（120 分鐘）。"
+        },
+        {
+            "employee_id": "EMP_004",
+            "name": "怡君",
+            "assigned_shift_id": "MORNING_SHIFT",
+            "attendance_status": "WORK",
+            "leave_intervals": [],
+            "willing_to_overtime": true,
+            "ot_max_limit_minutes": 180,
+            "note": "怡君：全能大師，正常出勤（08:00-17:00）。下班後願意加班 3 小時（180 分鐘）。"
+        },
+        {
+            "employee_id": "EMP_005",
+            "name": "王建國",
+            "assigned_shift_id": "MORNING_SHIFT",
+            "attendance_status": "LEAVE_FULL_DAY",
+            "leave_intervals": [
+                {
+                    "name": "事假一天",
+                    "start": "08:00",
+                    "end": "17:00"
+                }
+            ],
+            "willing_to_overtime": false,
+            "ot_max_limit_minutes": 0,
+            "note": "王建國：原定早班，但請事假一天。今天完全不參與任何排班。"
+        },
+        {
+            "employee_id": "EMP_008",
+            "name": "蔡美玲",
+            "assigned_shift_id": "MORNING_SHIFT",
+            "attendance_status": "PARTIAL_LEAVE",
+            "leave_intervals": [
+                {
+                    "name": "下午提早走",
+                    "start": "16:00",
+                    "end": "17:00"
+                }
+            ],
+            "willing_to_overtime": false,
+            "ot_max_limit_minutes": 0,
+            "note": "蔡美玲：下午提早請假 1 小時（16:00-17:00）。今天不願意加班。"
+        }
+    ]
+}
